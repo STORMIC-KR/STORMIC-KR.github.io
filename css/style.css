@@ -1,0 +1,29 @@
+.TitleContainer{
+	text-align: center;
+}
+
+.TitleContainer h1{
+	color: #fff;
+}
+
+.TopButtonContainer{
+	text-align: center;
+}
+
+#DownloadButton button{
+	margin:0 auto;
+	width: 300px;
+	height: 40px;
+	color:#fff;
+	background: #8e9ab3;
+	font-size: 16px;
+	border:none;
+	border-radius: 3px;
+	transition:0.3s;
+}
+#DownloadButton button:hover{
+	background: rgba(0,79,255,0.9);
+	cursor: pointer;
+	box-shadow: 0 2px 4px rgba(0,79,255,0.6);
+	transform: scale(0.95);
+}
