@@ -6,11 +6,22 @@
 	color: #fff;
 }
 
+.TitleButton{
+	width: 500px;
+	height: 100px;
+	color:#fff;
+	background: transparent;
+	font-size: 16px;
+	border:none;
+	border-radius: 3px;
+	transition:0.3s;
+}
+
 .TopButtonContainer{
 	text-align: center;
 }
 
-#DownloadButton button{
+.DownloadButton button{
 	margin:0 auto;
 	width: 300px;
 	height: 40px;
@@ -21,9 +32,21 @@
 	border-radius: 3px;
 	transition:0.3s;
 }
-#DownloadButton button:hover{
+.DownloadButton button:hover{
 	background: rgba(0,79,255,0.9);
 	cursor: pointer;
 	box-shadow: 0 2px 4px rgba(0,79,255,0.6);
 	transform: scale(0.95);
+}
+
+h1{
+	font-size: 45px;
+	text-align: center;
+	color: #fff;
+}
+
+h2{
+	font-size: 30px;
+	text-align: center;
+	color: #fff;
 }
